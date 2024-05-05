@@ -51,6 +51,9 @@ section.left-heading > h1 {
     content: "";
     border-radius: inherit;
     background: linear-gradient(to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%);;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
 }
 
 .card-content {
