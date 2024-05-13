@@ -1,12 +1,4 @@
-
 :root {
-
-    /**
-     * colors
-     */
-
-    /* gradient */
-
     --bg-gradient-onyx: linear-gradient(
             to bottom right,
             hsl(240, 1%, 25%) 3%,
@@ -38,8 +30,6 @@
             hsl(274, 47%, 45%)
     );
 
-    /* solid */
-
     --jet: hsl(0, 0%, 22%);
     --onyx: hsl(240, 1%, 17%);
     --eerie-black-1: hsl(240, 2%, 13%);
@@ -52,14 +42,7 @@
     --light-gray: hsl(0, 0%, 84%);
     --light-gray-70: hsla(0, 0%, 84%, 0.7);
     --bittersweet-shimmer: hsl(0, 43%, 51%);
-    /**
-      * typography
-      */
-
-    /* font-family */
     --ff-poppins: 'Poppins', sans-serif;
-
-    /* font-size */
     --fs-1: 24px;
     --fs-2: 18px;
     --fs-3: 17px;
@@ -68,34 +51,21 @@
     --fs-6: 14px;
     --fs-7: 13px;
     --fs-8: 11px;
-
-    /* font-weight */
     --fw-300: 300;
     --fw-400: 400;
     --fw-500: 500;
     --fw-600: 600;
-
-    /**
-     * shadow
-     */
-
     --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
     --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
     --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
     --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
     --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
-
-    /**
-     * transition
-     */
-
     --transition-1: 0.25s ease;
     --transition-2: 0.5s ease-in-out;
-
 }
 
 
-    body {
+body {
     background: #121212;
     color: #d6d6d6;
     font-family: "Poppins", sans-serif;
@@ -132,9 +102,13 @@ section.left-heading > h1 {
     margin: 20px 0;
 }
 
-.service { margin-bottom: 35px; }
+.service {
+    margin-bottom: 35px;
+}
 
-.service-title { margin-bottom: 20px; }
+.service-title {
+    margin-bottom: 20px;
+}
 
 .service-list {
     display: grid;
@@ -160,19 +134,28 @@ section.left-heading > h1 {
     z-index: -1;
 }
 
-.service-icon-box { margin-bottom: 10px; }
+.service-icon-box {
+    margin-bottom: 10px;
+}
 
-.service-icon-box img { margin: auto; }
+.service-icon-box img {
+    margin: auto;
+}
 
-.service-content-box { text-align: center; }
+.service-content-box {
+    text-align: center;
+}
 
-.service-item-title { margin-bottom: 7px; }
+.service-item-title {
+    margin-bottom: 7px;
+}
 
 .service-item-text {
     color: var(--light-gray);
     font-size: var(--fs-6);
     line-height: 1.6;
 }
+
 @media only screen and (width < 1000px) {
     main {
         min-width: 90%;
