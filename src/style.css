@@ -171,7 +171,6 @@ section.left-heading > h1 {
 .service-item-text {
     color: var(--light-gray);
     font-size: var(--fs-6);
-    font-weight: var(--fw-3);
     line-height: 1.6;
 }
 @media only screen and (width < 1000px) {
