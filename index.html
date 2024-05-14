@@ -1,75 +1,493 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cybersecurity Semester 2</title>
-    <meta http-equiv="Content-Security-Policy" content="font-src 'self' fonts.gstatic.com fonts.googleapis.com;">
-    <!-- River: you are smart enough to not do external dependencies! -->
-    <!-- I will keep it only because you are a good friend, but watch out! -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber-Security - How to stay safe online.</title>
+
+  <!--
+    - favicon
+  -->
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Home</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Malware</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Privacy</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Prevention</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Title</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="home">
+
         <header>
-            <section class="heading">
-                <h1>Cybersecurity</h1>
-                <div class="gradient"></div>
-            </section>
+          <h2 class="h2 article-title">Cyber-Security</h2>
         </header>
-        <p>Place to say things about code because you are so smart</p>
-        <h1>Key Areas</h1>
-        <main>
-            <section>
-                <h3 class="h3 article-title">Cybersecurity fundamentals</h3>
-                <ul>
-                    <li class="article-container">
-                        <div class="article-inner-container">
-                            <img src="/img/bug.svg" alt="bug icon">
-                            <h2>
-                                <a href="#">Article heading</a>
-                            </h2>
-                        </div>
-                        <p>preamble about article</p>
-                    </li>
-                    <li class="article-container">
-                        <div class="article-inner-container">
-                            <img src="/img/bug.svg" alt="bug icon">
-                            <h2>
-                                <a href="#">Article heading</a>
-                            </h2>
-                        </div>
-                        <p>preamble about article</p>
-                    </li>
-                    <li class="article-container">
-                        <div class="article-inner-container">
-                            <img src="/img/bug.svg" alt="bug icon">
-                            <h2>
-                                <a href="#">Article heading</a>
-                            </h2>
-                        </div>
-                        <p>preamble about article</p>
-                    </li>
-                    <li class="article-container">
-                        <div class="article-inner-container">
-                            <img src="/img/bug.svg" alt="bug icon">
-                            <h2>
-                                <a href="#">Article heading</a>
-                            </h2>
-                        </div>
-                        <p>preamble about article</p>
-                    </li>
-                </ul>
-            </section>
-        </main>
-        <footer>
-            <p>Licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#license-text" target="_blank" rel="noreferrer">GNU GPLv3</a></p>
-            <a href="https://github.com/shrapnelnet/Cybersecurity-S2" target="_blank" rel="noreferrer">Source code</a>
-        </footer>
+
+        <section class="about-text">
+          <p>
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc tincidunt aliquam.
+            Donec nec nunc nec nunc tincidunt aliquam. Donec nec nunc nec nunc tincidunt aliquam. Donec nec nunc nec nunc tincidunt aliquam.
+          </p>
+
+          <p>
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc tincidunt aliquam.
+            Donec nec nunc nec nunc tincidunt aliquam. Donec nec nunc nec nunc tincidunt aliquam. Donec nec nunc nec nunc tincidunt aliquam.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Key Areas</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/bug.svg
+                " alt="bug icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Viruses</h4>
+
+                <p class="service-item-text">
+                  lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc tincidunt aliquam.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Title</h4>
+
+                <p class="service-item-text">
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc tincidunt aliquam.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Title</h4>
+
+                <p class="service-item-text">
+                  lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc tincidunt aliquam.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Title</h4>
+
+                <p class="service-item-text">
+                  lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc tincidunt aliquam.
+                  donec nec nunc nec nunc tincidunt aliquam. donec nec nunc nec nunc tincidunt aliquam.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <article class="resume" data-page="malware">
+
+        <header>
+          <h2 class="h2 article-title">Malware</h2>
+        </header>
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Malware</p>
+
+                    <span class="dot"></span>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">What is Malware</h3>
+
+                  <p class="blog-text">
+                    Malware is any software intentionally designed to cause disruption to a computer, server, client, or computer network,
+                    leak private information, gain unauthorized access to information or systems, deprive access to information,
+                    or which unknowingly interferes with the user's computer security and privacy.
+                  </p>
+
+
+                </div>
+
+              </a>
+              <h4 class="blog-text-h4"> Types of Malware: </h4>
+            </li>
+              <li class="blog-post-item">
+                <a>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">Types</p>
+
+                      <span class="dot"></span>
+
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Viruses</h3>
+
+                    <p class="blog-text">
+                      Viruses are self-replicating code that infects applications and can cause data theft, DDoS attacks, or ransomware attacks.
+                      They propagate by modifying other computer programs, inserting their malicious code and executing it on the victim’s device.
+                      Despite numerous antivirus software available to counteract their effects, viruses continue to plague computer systems across the globe, targeting various operating systems such as Microsoft Windows and Mac.
+                    </p>
+
+
+                  </div>
+
+                </a>
+              </li>
+                <li class="blog-post-item">
+                  <a>
+
+                    <div class="blog-content">
+
+                      <div class="blog-meta">
+                        <p class="blog-category">Types</p>
+
+                        <span class="dot"></span>
+
+                      </div>
+
+                      <h3 class="h3 blog-item-title">Trojans</h3>
+
+                      <p class="blog-text">
+                        Trojans masquerade as legitimate software to trick users into downloading malicious software, which can be used to: </p>
+                      <ul class="blog-text-list">
+                          <li> Capture data </li>
+                          <li> Gain unauthorized access to networks </li>
+                          <li> Delete, modify, or capture data </li>
+                          <li> Harvest a device as part of a botnet </li>
+                          <li> Spy on a device </li>
+                        </ul>
+                        <p class="blog-text">
+                        Typically spread through social engineering tactics, such as phishing, trojans can pose a serious threat to your security.
+                        The payload of a trojan usually consists of a backdoor that provides the attacker with unauthorized access to the infected computer. This can potentially grant access to personal information, including:
+                        </p>
+                      <ul class="blog-text-list">
+                        <li>Internet activity </li>
+                        <li> Banking login credentials </li>
+                        <li> Passwords </li>
+                        <li> Personally Identifiable Information (PII) </li>
+                      </ul>
+                        <p class="blog-text">
+                            Trojans can also be used to install other malware, such as ransomware, on your device.
+                    </div>
+
+                  </a>
+                </li>
+            <li class="blog-post-item">
+              <a>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Types</p>
+
+                    <span class="dot"></span>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Trojans</h3>
+
+                  <p class="blog-text">
+                    Trojans masquerade as legitimate software to trick users into downloading malicious software, which can be used to: </p>
+                  <ul class="blog-text-list">
+                    <li> Capture data </li>
+                    <li> Gain unauthorized access to networks </li>
+                    <li> Delete, modify, or capture data </li>
+                    <li> Harvest a device as part of a botnet </li>
+                    <li> Spy on a device </li>
+                  </ul>
+                  <p class="blog-text">
+                    Typically spread through social engineering tactics, such as phishing, trojans can pose a serious threat to your security.
+                    The payload of a trojan usually consists of a backdoor that provides the attacker with unauthorized access to the infected computer. This can potentially grant access to personal information, including:
+                  </p>
+                  <ul class="blog-text-list">
+                    <li>Internet activity </li>
+                    <li> Banking login credentials </li>
+                    <li> Passwords </li>
+                    <li> Personally Identifiable Information (PII) </li>
+                  </ul>
+                  <p class="blog-text">
+                    Trojans can also be used to install other malware, such as ransomware, on your device.
+                </div>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="privacy">
+
+        <header>
+          <h2 class="h2 article-title">Privacy</h2>
+        </header>
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Title</p>
+
+                    <span class="dot"></span>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Title</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="prevention">
+
+        <header>
+          <h2 class="h2 article-title">Prevention</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Title</p>
+
+                    <span class="dot"></span>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Title</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="title">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Title</p>
+
+                    <span class="dot"></span>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Title</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+
+
+      </article>
+
     </div>
-    <script type="module" src="/src/main.ts"></script>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
 </body>
+
+
+
 </html>
