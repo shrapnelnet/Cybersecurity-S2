@@ -503,24 +503,7 @@ main {
     color: var(--blue);
 }
 
-.footer-hehe {
-    color: var(--blue);
-    font-size: var(--fs-6);
-    font-weight: var(--fw-300);
-    padding: 20px;
-    text-align: left;
-    gap: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--eerie-black-2);
-    border-top: 1px solid var(--jet);
-    margin-top:-250px; ;
 
-}
-.footer-hehe a {
-    color: var(--blue);
-}
 
 /*-----------------------------------*\
   #RESPONSIVE
